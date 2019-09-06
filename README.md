@@ -12,3 +12,6 @@ Installation:
 
 Use (Windows):
 From mingw32 (git bash): `./rrserve.sh`
+
+Thanks to:
+https://github.com/dunglas who wrote the base of this code.
