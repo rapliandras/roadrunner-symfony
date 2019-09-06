@@ -6,5 +6,13 @@
             "email": "hello@rapliandras.hu"
         }
     ],
-    "require": {}
+    "require": {
+
+        "spiral/roadrunner": "^1.4",
+        "symfony/psr-http-message-bridge": "^1.2",
+        "nyholm/psr7": "^1.2",
+        "spiral/dumper": "^1.1"
+
+
+    }
 }
