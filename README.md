@@ -11,4 +11,4 @@ Installation:
  `composer require rapliandras/roadrunner-symfony`
 
 Use (Windows):
-From mingw32 (git bash): `./rrserve`
+From mingw32 (git bash): `./rrserve.sh`
