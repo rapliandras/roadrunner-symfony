@@ -1,0 +1,10 @@
+http:
+  address: 0.0.0.0:8081
+  workers:
+    command: "php worker.php"
+    pool:
+      numWorkers: 4
+
+static:
+  dir:   "public"
+  forbid: [".php", ".htaccess"]

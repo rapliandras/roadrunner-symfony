@@ -1,0 +1,10 @@
+{
+    "name": "rapliandras/roadrunner-symfony",
+    "authors": [
+        {
+            "name": "Rápli András",
+            "email": "hello@rapliandras.hu"
+        }
+    ],
+    "require": {}
+}
