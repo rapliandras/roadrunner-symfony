@@ -13,5 +13,6 @@ Installation:
 Use (Windows):
 From mingw32 (git bash): `./rrserve.sh`
 
-Thanks to:
-https://github.com/dunglas who wrote the base of this code.
+Special thanks to:
+All the https://roadrunner.dev/ dev team and
+https://github.com/dunglas who published the base of this code.
