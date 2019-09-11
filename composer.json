@@ -12,7 +12,10 @@
         "symfony/psr-http-message-bridge": "^1.2",
         "nyholm/psr7": "^1.2",
         "spiral/dumper": "^1.1"
-
-
+    },
+    "scripts": {
+       "post-install-cmd": [
+            "php -r \"copy('vendor/rapliandras/roadrunner-symfony/rrserve.sh', 'rrserve.sh');\""
+        ]
     }
 }
