@@ -1,1 +1,1 @@
-rr -c vendor/rapliandras/roadrunner-symfony/.rr.yaml -v -d "$*"
+rr serve -v -d --config vendor/rapliandras/roadrunner-symfony/.rr.yaml "$*"
