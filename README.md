@@ -14,7 +14,7 @@ Roadrunner app server configuration for symfony
  2. `composer require rapliandras/roadrunner-symfony`
 
 **Use (Windows):**
-From mingw32 (git bash): `./rrserve.sh` From command line or powershell terminal: `rrserve.exe`. Keep in mind that the Windows terminal will not care about the cool coloring or logged messages.
+From mingw32 (git bash): `./rrserve.sh` From command line or powershell terminal: `rrserve.exe`. Keep in mind that the Windows terminal will not care about the cool coloring of logged messages.
 
 **Use (Linux):**
 From terminal: `./rrserve.sh`
