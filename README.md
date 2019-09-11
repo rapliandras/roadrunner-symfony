@@ -13,6 +13,8 @@ Installation:
 Use (Windows):
 From mingw32 (git bash): `./rrserve.sh`
 
+The application defaults to `localhost:8081`, you can change the port like this: `./rrserve.sh -o http.address=:80`
+
 Special thanks to:
 All the https://roadrunner.dev/ dev team and
 https://github.com/dunglas who published the base of this code.
