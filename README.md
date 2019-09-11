@@ -8,11 +8,15 @@ What does this package do?
 * fixes internal server errors where trying to reach non-existing static files.
 
 Installation:
+ 0. Make sure PHP CLI is installed and the roadrunner executable was compiled. For help, see RoadRunner docs at `https://roadrunner.dev/docs/intro-install`
  1. Make sure the roadrunner executable is in your `PATH`. If you named the executable different than rr or rr.exe, rewrite `rrserve.sh` after requiring the package.
  2. `composer require rapliandras/roadrunner-symfony`
 
 Use (Windows):
 From mingw32 (git bash): `./rrserve.sh`
+
+Use (Linux):
+From terminal: `./rrserve.sh`
 
 The application defaults to `localhost:8081`, you can change the port like this: `./rrserve.sh -o http.address=:80`
 
