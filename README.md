@@ -8,7 +8,7 @@ What does this package do?
 * fixes internal server errors where trying to reach non-existing static files.
 
 Installation:
- 1. Make sure the roadrunner executable is in your `PATH`.
+ 1. Make sure the roadrunner executable is in your `PATH`. If you named the executable different than rr or rr.exe, rewrite `rrserve.sh` after requiring the package.
  2. `composer require rapliandras/roadrunner-symfony`
 
 Use (Windows):
