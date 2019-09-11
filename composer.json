@@ -1,5 +1,6 @@
 {
     "name": "rapliandras/roadrunner-symfony",
+    "description":"RoadRunner app server configuration out of the box for Symfony",
     "authors": [
         {
             "name": "Rápli András",
