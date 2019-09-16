@@ -12,6 +12,7 @@ Roadrunner app server configuration for symfony
  0. Make sure PHP CLI is installed and the roadrunner executable was compiled. For help, see RoadRunner docs at https://roadrunner.dev/docs/intro-install
  1. Make sure the roadrunner executable is in your `PATH`. If you named the executable different than rr or rr.exe, or didn't rewrite `PATH` for some reason, rewrite `rrserve.sh` after requiring the package accordingly.
  2. `composer require rapliandras/roadrunner-symfony`
+ 3. Set the APP_DIR directive in your environment. (`echo "APP_DIR="$(pwd) >> .env`)
 
 **Use (Windows):**
 From mingw32 (git bash): `./rrserve.sh` From command line or powershell terminal: `rrserve.exe`. Keep in mind that the Windows terminal will not care about the cool coloring of logged messages.
